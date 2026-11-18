@@ -1,0 +1,14 @@
+MULTINAPISYPL — REPOZYTORIUM KODI
+
+1. Prześlij zawartość tego folderu (nie folder nadrzędny) do katalogu głównego repozytorium GitHub leszekgd71/MultiNapisyPl.
+2. GitHub → Settings → Pages → Build and deployment → Deploy from a branch → main / (root) → Save.
+3. Poczekaj, aż https://leszekgd71.github.io/MultiNapisyPl/addons.xml będzie dostępny.
+4. Kodi → Menedżer plików → Dodaj źródło → https://leszekgd71.github.io/MultiNapisyPl/ → nazwij MultiNapisyPl.
+5. Kodi → Dodatki → Zainstaluj z pliku ZIP → MultiNapisyPl → repository.multinapisypl-1.0.0.zip.
+6. Kodi → Dodatki → Zainstaluj z repozytorium → MultiNapisyPl Repository → Napisy → MultiNapisyPl.
+
+RĘCZNA INSTALACJA: https://github.com/leszekgd71/MultiNapisyPl/releases/tag/1.0 (ZIP z Assets).
+
+WAŻNE: Po zmianie wersji dodatku zaktualizuj plik addon.xml, nazwę ZIP, addons.xml i MD5. GitHub Pages może potrzebować kilku minut na wdrożenie.
+
+UWAGA: Dodatek deklaruje opcjonalną zależność a4kSubtitles; funkcje OpenSubtitles mogą wymagać jej osobnej instalacji.
