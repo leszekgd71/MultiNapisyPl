@@ -1,1 +1,0 @@
-Wgraj katalog service.subtitles.multinapisypl oraz pliki addons.xml i addons.xml.md5 do katalogu glownego repozytorium GitHub. Usun poprzedni service.subtitles.multinapisypl-1.zip z katalogu na GitHubie, aby nie pozostawic dwoch wersji. W Kodi wersja 1.0 nie zostanie automatycznie wykryta jako aktualizacja, jesli juz jest zainstalowana wersja 1.0.
