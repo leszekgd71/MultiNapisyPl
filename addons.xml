@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <addons>
-  <addon id="service.subtitles.multinapisypl" name="MultiNapisyPl" version="1.0" provider-name="MultiNapisyPl">
+  <addon id="service.subtitles.multinapisypl" name="MultiNapisyPl" version="1.0.1" provider-name="MultiNapisyPl">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
       <import addon="script.module.future" />
       <import addon="script.module.beautifulsoup4" />
-      <import addon="service.subtitles.a4ksubtitles" version="3.26.1" />
+      <import addon="service.subtitles.a4ksubtitles" version="3.26.1" optional="true" />
     </requires>
     <extension point="xbmc.subtitle.module" library="service.py" />
     <extension point="xbmc.service" library="playback_monitor.py" start="login" />
